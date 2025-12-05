@@ -1,5 +1,9 @@
 # Weather Widget example
 
+## Task
+
+Using Vue.js, Typescript/ES7 and Babel, SCSS, Webpack to implement a widget that displays the weather in the specified cities
+
 ## Development mode
 
 ```bash
