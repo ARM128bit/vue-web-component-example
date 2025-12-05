@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="../static/favicon.ico"> -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+        #wrapper-example {
+            width: 250px;
+            min-height: 285px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- This wrapper is like a different service -->
+    <!-- You can build the app, publish bundle and use url to your service -->
+    <!-- <script type="text/javascript" src="{URL to the app}"></script> -->
+    <div id="wrapper-example">
+      <weather-widget></weather-widget>
+    </div>
+  </body>
+</html>
